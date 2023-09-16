@@ -39,18 +39,18 @@ export const themeSettings = (mode) => {
             primary: {
               dark: colorTokens.primary[200],
               main: colorTokens.primary[500],
-              light: colorTokens.primary[700],
+              light: colorTokens.primary[800],
             },
             neutral: {
               dark: colorTokens.grey[100],
               main: colorTokens.grey[200],
               mediumMani: colorTokens.grey[300],
               medium: colorTokens.grey[400],
-              light: colorTokens.grey[800],
+              light: colorTokens.grey[700],
             },
             background: {
-              default: colorTokens.grey[100],
-              alt: colorTokens.grey[900],
+              default: colorTokens.grey[900],
+              alt: colorTokens.grey[800],
             },
           }
         : {
@@ -61,10 +61,10 @@ export const themeSettings = (mode) => {
               light: colorTokens.primary[50],
             },
             neutral: {
-              dark: colorTokens.grey[800],
-              main: colorTokens.grey[400],
-              mediumMani: colorTokens.grey[300],
-              medium: colorTokens.grey[200],
+              dark: colorTokens.grey[700],
+              main: colorTokens.grey[500],
+              mediumMani: colorTokens.grey[400],
+              medium: colorTokens.grey[300],
               light: colorTokens.grey[50],
             },
             background: {
